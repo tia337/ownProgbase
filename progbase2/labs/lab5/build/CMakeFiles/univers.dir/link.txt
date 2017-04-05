@@ -1,0 +1,2 @@
+/usr/bin/ar qc libunivers.a  CMakeFiles/univers.dir/src/convert.c.o CMakeFiles/univers.dir/src/cui.c.o CMakeFiles/univers.dir/src/list.c.o CMakeFiles/univers.dir/src/storage.c.o CMakeFiles/univers.dir/src/test.c.o
+/usr/bin/ranlib libunivers.a

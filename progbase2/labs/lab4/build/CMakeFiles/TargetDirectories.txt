@@ -1,0 +1,7 @@
+/home/ilya/projects/progbase2/labs/lab4/build/CMakeFiles/install.dir
+/home/ilya/projects/progbase2/labs/lab4/build/CMakeFiles/list_install_components.dir
+/home/ilya/projects/progbase2/labs/lab4/build/CMakeFiles/rebuild_cache.dir
+/home/ilya/projects/progbase2/labs/lab4/build/CMakeFiles/install/strip.dir
+/home/ilya/projects/progbase2/labs/lab4/build/CMakeFiles/install/local.dir
+/home/ilya/projects/progbase2/labs/lab4/build/CMakeFiles/proj.dir
+/home/ilya/projects/progbase2/labs/lab4/build/CMakeFiles/edit_cache.dir

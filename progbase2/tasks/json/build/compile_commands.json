@@ -1,0 +1,17 @@
+[
+{
+  "directory": "/home/ilya/projects/progbase2/tasks/json/build",
+  "command": "/usr/bin/cc   -I/home/ilya/projects/progbase2/tasks/json/include  -g   -o CMakeFiles/proj.dir/main.c.o   -c /home/ilya/projects/progbase2/tasks/json/main.c",
+  "file": "/home/ilya/projects/progbase2/tasks/json/main.c"
+},
+{
+  "directory": "/home/ilya/projects/progbase2/tasks/json/build",
+  "command": "/usr/bin/cc   -I/home/ilya/projects/progbase2/tasks/json/include  -g   -o CMakeFiles/proj.dir/src/JsonLoader.c.o   -c /home/ilya/projects/progbase2/tasks/json/src/JsonLoader.c",
+  "file": "/home/ilya/projects/progbase2/tasks/json/src/JsonLoader.c"
+},
+{
+  "directory": "/home/ilya/projects/progbase2/tasks/json/build",
+  "command": "/usr/bin/cc   -I/home/ilya/projects/progbase2/tasks/json/include  -g   -o CMakeFiles/proj.dir/src/list.c.o   -c /home/ilya/projects/progbase2/tasks/json/src/list.c",
+  "file": "/home/ilya/projects/progbase2/tasks/json/src/list.c"
+}
+]

@@ -1,0 +1,7 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+    "clang.cflags": [
+        "-I./", 
+        "-I./tests", 
+        "-std=c99", "-Wall", "-Werror", "-pedantic-errors"]
+}

@@ -1,0 +1,1 @@
+/usr/bin/cc  -std=c99 -g   CMakeFiles/lab5.dir/main.c.o  -o lab5 -rdynamic libunivers.a -lprogbase -lxml2 -ljansson -lcheck 

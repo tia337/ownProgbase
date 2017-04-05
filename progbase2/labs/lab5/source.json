@@ -1,0 +1,47 @@
+[
+    {
+        "name": "KPI",
+        "rank": 89.7,
+        "location": "Ukraine",
+        "moreData": {
+            "matanPoints": 91,
+            "students": 17803
+        }
+    },
+    {
+        "name": "BMSTU",
+        "rank": 97.5,
+        "location": "Russia",
+        "moreData": {
+            "matanPoints": 95,
+            "students": 5900
+        }
+    },
+    {
+        "name": "MIT",
+        "rank": 78.9,
+        "location": "US",
+        "moreData": {
+            "matanPoints": 85,
+            "students": 4570
+        }
+    },
+    {
+        "name": "Cambridge",
+        "rank": 91.2,
+        "location": "UK",
+        "moreData": {
+            "matanPoints": 95,
+            "students": 8900
+        }
+    },
+    {
+        "name": "MSU",
+        "rank": 90.5,
+        "location": "Russia",
+        "moreData": {
+            "matanPoints": 97,
+            "students": 4000
+        }
+    }
+]

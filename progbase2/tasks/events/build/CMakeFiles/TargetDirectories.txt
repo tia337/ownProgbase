@@ -1,0 +1,3 @@
+/home/ilya/projects/progbase2/tasks/events/build/CMakeFiles/edit_cache.dir
+/home/ilya/projects/progbase2/tasks/events/build/CMakeFiles/rebuild_cache.dir
+/home/ilya/projects/progbase2/tasks/events/build/CMakeFiles/eventsystem.dir

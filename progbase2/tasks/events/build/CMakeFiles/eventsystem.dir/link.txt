@@ -1,0 +1,1 @@
+/usr/bin/cc  -std=c11 -g -Werror -Wall -fms-extensions -g   CMakeFiles/eventsystem.dir/main.c.o CMakeFiles/eventsystem.dir/src/events.c.o CMakeFiles/eventsystem.dir/src/list.c.o  -o eventsystem -rdynamic -lprogbase 

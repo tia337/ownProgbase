@@ -1,0 +1,16 @@
+{
+  "name": "Vodila Vassya",
+  "age": 34,
+  "salary": 1562.54,
+  "clients": [
+    {
+      "name": "Misha"
+    },
+    {
+      "name": "Vadim"
+    },
+    {
+      "name": "Max"
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+/usr/bin/cc  -g   CMakeFiles/proj.dir/main.c.o CMakeFiles/proj.dir/src/convert.c.o CMakeFiles/proj.dir/src/cui.c.o CMakeFiles/proj.dir/src/list.c.o CMakeFiles/proj.dir/src/storage.c.o CMakeFiles/proj.dir/tests/test.c.o  -o proj -rdynamic -lxml2 -Wl,-Bstatic -lprogbase -Wl,-Bdynamic -lcheck 

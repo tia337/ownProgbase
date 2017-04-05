@@ -1,0 +1,1 @@
+/usr/bin/cc  -g   CMakeFiles/proj.dir/main.c.o CMakeFiles/proj.dir/src/JsonLoader.c.o CMakeFiles/proj.dir/src/list.c.o  -o proj -rdynamic -ljansson 

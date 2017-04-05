@@ -1,0 +1,17 @@
+[
+{
+  "directory": "/home/ilya/projects/progbase2/tasks/events/build",
+  "command": "/usr/bin/cc   -I/home/ilya/projects/progbase2/tasks/events/include  -std=c11 -g -Werror -Wall -fms-extensions -g   -o CMakeFiles/eventsystem.dir/main.c.o   -c /home/ilya/projects/progbase2/tasks/events/main.c",
+  "file": "/home/ilya/projects/progbase2/tasks/events/main.c"
+},
+{
+  "directory": "/home/ilya/projects/progbase2/tasks/events/build",
+  "command": "/usr/bin/cc   -I/home/ilya/projects/progbase2/tasks/events/include  -std=c11 -g -Werror -Wall -fms-extensions -g   -o CMakeFiles/eventsystem.dir/src/events.c.o   -c /home/ilya/projects/progbase2/tasks/events/src/events.c",
+  "file": "/home/ilya/projects/progbase2/tasks/events/src/events.c"
+},
+{
+  "directory": "/home/ilya/projects/progbase2/tasks/events/build",
+  "command": "/usr/bin/cc   -I/home/ilya/projects/progbase2/tasks/events/include  -std=c11 -g -Werror -Wall -fms-extensions -g   -o CMakeFiles/eventsystem.dir/src/list.c.o   -c /home/ilya/projects/progbase2/tasks/events/src/list.c",
+  "file": "/home/ilya/projects/progbase2/tasks/events/src/list.c"
+}
+]

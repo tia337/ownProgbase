@@ -1,0 +1,32 @@
+[
+{
+  "directory": "/home/ilya/projects/progbase2/labs/lab4/build",
+  "command": "/usr/bin/cc   -I/home/ilya/projects/progbase2/labs/lab4/include -I/usr/include/libxml2  -g   -o CMakeFiles/proj.dir/main.c.o   -c /home/ilya/projects/progbase2/labs/lab4/main.c",
+  "file": "/home/ilya/projects/progbase2/labs/lab4/main.c"
+},
+{
+  "directory": "/home/ilya/projects/progbase2/labs/lab4/build",
+  "command": "/usr/bin/cc   -I/home/ilya/projects/progbase2/labs/lab4/include -I/usr/include/libxml2  -g   -o CMakeFiles/proj.dir/src/convert.c.o   -c /home/ilya/projects/progbase2/labs/lab4/src/convert.c",
+  "file": "/home/ilya/projects/progbase2/labs/lab4/src/convert.c"
+},
+{
+  "directory": "/home/ilya/projects/progbase2/labs/lab4/build",
+  "command": "/usr/bin/cc   -I/home/ilya/projects/progbase2/labs/lab4/include -I/usr/include/libxml2  -g   -o CMakeFiles/proj.dir/src/cui.c.o   -c /home/ilya/projects/progbase2/labs/lab4/src/cui.c",
+  "file": "/home/ilya/projects/progbase2/labs/lab4/src/cui.c"
+},
+{
+  "directory": "/home/ilya/projects/progbase2/labs/lab4/build",
+  "command": "/usr/bin/cc   -I/home/ilya/projects/progbase2/labs/lab4/include -I/usr/include/libxml2  -g   -o CMakeFiles/proj.dir/src/list.c.o   -c /home/ilya/projects/progbase2/labs/lab4/src/list.c",
+  "file": "/home/ilya/projects/progbase2/labs/lab4/src/list.c"
+},
+{
+  "directory": "/home/ilya/projects/progbase2/labs/lab4/build",
+  "command": "/usr/bin/cc   -I/home/ilya/projects/progbase2/labs/lab4/include -I/usr/include/libxml2  -g   -o CMakeFiles/proj.dir/src/storage.c.o   -c /home/ilya/projects/progbase2/labs/lab4/src/storage.c",
+  "file": "/home/ilya/projects/progbase2/labs/lab4/src/storage.c"
+},
+{
+  "directory": "/home/ilya/projects/progbase2/labs/lab4/build",
+  "command": "/usr/bin/cc   -I/home/ilya/projects/progbase2/labs/lab4/include -I/usr/include/libxml2  -g   -o CMakeFiles/proj.dir/tests/test.c.o   -c /home/ilya/projects/progbase2/labs/lab4/tests/test.c",
+  "file": "/home/ilya/projects/progbase2/labs/lab4/tests/test.c"
+}
+]

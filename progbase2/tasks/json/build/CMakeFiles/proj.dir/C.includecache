@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/JsonLoader.h
+stdlib.h
+-
+
+../include/list.h
+
+/home/ilya/projects/progbase2/tasks/json/main.c
+stdlib.h
+-
+stdio.h
+-
+string.h
+-
+list.h
+-
+JsonLoader.h
+-
+
+/home/ilya/projects/progbase2/tasks/json/src/JsonLoader.c
+list.h
+-
+JsonLoader.h
+-
+jansson.h
+-
+string.h
+-
+
+/home/ilya/projects/progbase2/tasks/json/src/list.c
+list.h
+-
+stdlib.h
+-
+stdio.h
+-
+assert.h
+-
+

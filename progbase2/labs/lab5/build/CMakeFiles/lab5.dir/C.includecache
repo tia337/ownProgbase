@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/convert.h
+
+../include/cui.h
+
+../include/list.h
+convert.h
+../include/convert.h
+
+../include/storage.h
+list.h
+../include/list.h
+convert.h
+../include/convert.h
+stdbool.h
+-
+
+../include/test.h
+
+/home/ilya/projects/progbase2/labs/lab5/main.c
+stdio.h
+-
+string.h
+-
+progbase.h
+-
+pbconsole.h
+-
+convert.h
+-
+list.h
+-
+storage.h
+-
+cui.h
+-
+test.h
+-
+

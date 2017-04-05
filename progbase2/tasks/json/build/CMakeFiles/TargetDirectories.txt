@@ -1,0 +1,3 @@
+/home/ilya/projects/progbase2/tasks/json/build/CMakeFiles/edit_cache.dir
+/home/ilya/projects/progbase2/tasks/json/build/CMakeFiles/rebuild_cache.dir
+/home/ilya/projects/progbase2/tasks/json/build/CMakeFiles/proj.dir

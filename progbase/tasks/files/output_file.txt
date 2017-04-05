@@ -1,0 +1,3 @@
+Check every string for negative and positive integers and output their sum
+
+21	122	-245	-58	-85	-80	72	-191	150	

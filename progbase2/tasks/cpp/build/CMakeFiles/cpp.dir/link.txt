@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++11 -g -g   CMakeFiles/cpp.dir/main.cpp.o CMakeFiles/cpp.dir/src/sphere.cpp.o  -o cpp -rdynamic -lprogbase 

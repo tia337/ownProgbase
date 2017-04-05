@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/ilya/projects/progbase2/tasks/cpp/build",
+  "command": "/usr/bin/c++    -I/home/ilya/projects/progbase2/tasks/cpp/include  -std=c++11 -g -g   -o CMakeFiles/cpp.dir/main.cpp.o -c /home/ilya/projects/progbase2/tasks/cpp/main.cpp",
+  "file": "/home/ilya/projects/progbase2/tasks/cpp/main.cpp"
+},
+{
+  "directory": "/home/ilya/projects/progbase2/tasks/cpp/build",
+  "command": "/usr/bin/c++    -I/home/ilya/projects/progbase2/tasks/cpp/include  -std=c++11 -g -g   -o CMakeFiles/cpp.dir/src/sphere.cpp.o -c /home/ilya/projects/progbase2/tasks/cpp/src/sphere.cpp",
+  "file": "/home/ilya/projects/progbase2/tasks/cpp/src/sphere.cpp"
+}
+]
