@@ -506,10 +506,9 @@ void ChatWindow::on_actionPrevious_message_triggered()
 }
 
 //---------------------------button trigger for translating---------------------------------------------------------------
-void ChatWindow::on_actionRussian_triggered()
-{
-     translator.load(":/chApp_ru.qm");
-     qApp->installTranslator(&translator);
-     ui->retranslateUi(this);
-
-}
+    void ChatWindow::on_actionRussian_triggered()
+    {
+        translator.load(":/Translations/chApp_ru.qm");
+        qApp->installTranslator(&translator);
+        ui->retranslateUi(this);
+    }

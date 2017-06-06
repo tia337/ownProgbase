@@ -14,6 +14,6 @@
         <file>smilies/pirate.png</file>
     </qresource>
     <qresource prefix="/">
-        <file>chApp_ru.qm</file>
+        <file>Translations/chApp_ru.qm</file>
     </qresource>
 </RCC>
