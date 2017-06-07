@@ -7,6 +7,7 @@
 #include "QMessageBox"
 #include <QDebug>
 #include <QTranslator>
+#include <aboutwindow.h>
 
 
 QTranslator translator;
@@ -25,10 +26,7 @@ ChatWindow::ChatWindow(Gui* guiPointer) :
     ui->roomTree->setStyleSheet("white");
     ui->messageHistory->setStyleSheet("white");
     this->setStyleSheet("none");
-    ui->mainToolBar->setStyleSheet("none");
-    
-    // Set appdir depending on OS
-    appdir = QCoreApplication::applicationDirPath();    
+    ui->mainToolBar->setStyleSheet("transparent");//*******************************************************************
 }
 
 
@@ -63,9 +61,10 @@ void ChatWindow::receiveMessage(const QString from, const QString to, const QStr
 
     else {
         ui->messageHistory->setTextColor(Qt::blue);
-        ui->messageHistory->insertPlainText(from + (" says: "));
+        ui->messageHistory->insertPlainText(from + tr(" says: "));
         ui->messageHistory->setTextColor(Qt::black);
     }
+
        
     //output message
     ui->messageHistory->insertHtml(smilieConvert(message));
@@ -154,6 +153,7 @@ void ChatWindow::on_sendButton_clicked()
     ui->messageInput->clear();
     receiver="root";
     ui->sendButton->setText(tr("Send"));
+//    QSound::play(":/sounds/wav/apple_sms.wav");
 
 
 }
@@ -240,7 +240,7 @@ void ChatWindow::receiveHistory(QVector<QString> &historyVector){
         ui->messageHistory->setTextColor(Qt::black);
         ui->messageHistory->insertPlainText(tempString.remove(0,11).remove(5,7)+" | ");
         ui->messageHistory->setTextColor(Qt::blue);
-        ui->messageHistory->insertPlainText(historyVector.at(i) + " says: ");
+        ui->messageHistory->insertPlainText(historyVector.at(i) + tr(" says: "));
         ui->messageHistory->setTextColor(Qt::black);
         ui->messageHistory->insertHtml(smilieConvert(historyVector.at(i+2)));
         ui->messageHistory->insertPlainText("\n");
@@ -330,8 +330,7 @@ void ChatWindow::on_actionDefault_triggered()
     ui->messageInput->setStyleSheet("blue");
     ui->roomTree->setStyleSheet("blue");
     ui->messageHistory->setStyleSheet("white");
-    this->setStyleSheet("white");
-    
+    this->setStyleSheet("white");  
 }
 
 void ChatWindow::on_actionchApp_triggered()
@@ -342,8 +341,7 @@ void ChatWindow::on_actionchApp_triggered()
     this->setStyleSheet("background-color: purple;");
     ui->mainToolBar->setStyleSheet("background-color: none;");
     ui->menuBar->setStyleSheet("background-color: none;");
-    ui->sendButton->setStyleSheet("background-color: none;");
-    
+    ui->sendButton->setStyleSheet("background-color: none;");  
 }
 
 void ChatWindow::on_actionMonokai_triggered()
@@ -355,19 +353,17 @@ void ChatWindow::on_actionMonokai_triggered()
     ui->mainToolBar->setStyleSheet("background-color: grey;");
     ui->menuBar->setStyleSheet("background-color: none;");
     ui->sendButton->setStyleSheet("background-color: lightgrey;");
-    
 }
 
 void ChatWindow::on_actionRadiance_triggered()
 {
-    ui->messageInput->setStyleSheet("background-color: yellow;");
+    ui->messageInput->setStyleSheet("background-color: lightblue;");
     ui->roomTree->setStyleSheet("background-color: grey;");
     ui->messageHistory->setStyleSheet("background-color: red;");
     this->setStyleSheet("background-color: green;");
     ui->mainToolBar->setStyleSheet("background-color: none;");
     ui->menuBar->setStyleSheet("background-color: none;");
     ui->sendButton->setStyleSheet("background-color: none;");
-
 }
 void ChatWindow::on_actionLight_triggered()
 {
@@ -382,7 +378,7 @@ void ChatWindow::on_actionLight_triggered()
 
 void ChatWindow::on_actionImage_triggered()
 {
-    QString fileName = QFileDialog::getOpenFileName(this, tr("Open file"), "/home", tr("Images(*.jpg*.png)"));
+    QString fileName = QFileDialog::getOpenFileName(this, tr("Open file"), "/home", tr("JPEG (*.jpg *.jpeg);;PNG (*.png)"));
     QString filePath(fileName);
     qDebug () << filePath;
     setStyleSheet("ChatWindow{background:url(" + filePath + ") 0 0 0 0 stretch stretch;}");
@@ -435,28 +431,28 @@ QString ChatWindow::smilieConvert(const QString inMessage){
 
 void ChatWindow::on_action13_triggered()
 {
-    QFont f("Geeza Pro", 13);
+    QFont f("Dutismo Regular", 13);
     ui->messageHistory->setFont(f);
     ui->messageHistory->verticalScrollBar()->setValue(ui->messageHistory->verticalScrollBar()->maximum());
 }
 
 void ChatWindow::on_action15_triggered()
 {
-    QFont f("Geeza Pro", 15);
+    QFont f("Dutismo Regular", 15);
     ui->messageHistory->setFont(f);
     ui->messageHistory->verticalScrollBar()->setValue(ui->messageHistory->verticalScrollBar()->maximum());
 }
 
 void ChatWindow::on_action20_triggered()
 {
-    QFont f("Geeza Pro", 20);
+    QFont f("Dutismo Regular", 20);
     ui->messageHistory->setFont(f);
     ui->messageHistory->verticalScrollBar()->setValue(ui->messageHistory->verticalScrollBar()->maximum());
 }
 
 void ChatWindow::on_action25_triggered()
 {
-    QFont f("Geeza Pro", 25);
+    QFont f("Dutismo Regular", 25);
     ui->messageHistory->setFont(f);
     ui->messageHistory->verticalScrollBar()->setValue(ui->messageHistory->verticalScrollBar()->maximum());
 }
@@ -505,10 +501,32 @@ void ChatWindow::on_actionPrevious_message_triggered()
     ui->messageInput->insert(lastMessage);
 }
 
-//---------------------------button trigger for translating---------------------------------------------------------------
-    void ChatWindow::on_actionRussian_triggered()
-    {
-        translator.load(":/Translations/chApp_ru.qm");
-        qApp->installTranslator(&translator);
-        ui->retranslateUi(this);
-    }
+//---------------------------button trigger for translating------------------------------------------------------------------------
+void ChatWindow::on_actionRussian_triggered()
+{
+    translator.load(":/Translations/chApp_ru.qm");
+    qApp->installTranslator(&translator);
+    ui->retranslateUi(this);
+}
+
+void ChatWindow::on_actionEnglish_triggered()
+{
+    translator.load(":/Translations/chApp_en.qm");
+    qApp->installTranslator(&translator);
+    ui->retranslateUi(this);
+}
+
+void ChatWindow::on_actionUkrainian_triggered()
+{
+    translator.load(":/Translations/chApp_ua.qm");
+    qApp->installTranslator(&translator);
+    ui->retranslateUi(this);
+}
+
+//---------------------------button trigger for About------------------------------------------------------------------------------
+
+void ChatWindow::on_actionAbout_triggered(){
+    AboutWindow about;
+    about.setModal(true);
+    about.exec();
+}

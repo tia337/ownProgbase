@@ -9,7 +9,8 @@
 #include <QGraphicsOpacityEffect>
 #include <QCoreApplication>
 #include <QDate>
-
+#include <QSound>
+#include <QMediaPlayer>
 /*
  Class MainWindow. This is the programs main window.
  */
@@ -66,6 +67,9 @@ private slots:
     void on_action25_2_triggered();
     void on_actionPrevious_message_triggered();
     void on_actionRussian_triggered();
+    void on_actionEnglish_triggered();
+    void on_actionUkrainian_triggered();
+    void on_actionAbout_triggered();
 
 private:
     QString receiver="root";
@@ -90,9 +94,6 @@ private:
     QString smileySize;
     QVector<QString> smiley;
     QString lastMessage;
-    QString appdir;
-    QString soundFile;
-
 };
 
 #endif // CHATWINDOW_H

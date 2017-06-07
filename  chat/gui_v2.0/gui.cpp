@@ -17,6 +17,7 @@ Gui::Gui()
 
 void Gui::receiveMessage(QString from, QString to, QString message, QString servertime) {
     mainWindow->receiveMessage(from, to, message, servertime);
+    QSound::play(":/sounds/wav/apple_sms.wav");
 }
 
 //------------------------------------------------------------------

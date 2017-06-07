@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="ru_RU">
+<TS version="2.1" language="en_US">
 <context>
     <name>AboutWindow</name>
     <message>
         <location filename="../aboutwindow.ui" line="14"/>
         <source>Dialog</source>
-        <translation>О программе</translation>
+        <translation>About</translation>
     </message>
     <message>
         <location filename="../aboutwindow.ui" line="29"/>
         <source>chApp</source>
-        <translation></translation>
+        <translation>chApp</translation>
     </message>
     <message>
         <location filename="../aboutwindow.ui" line="45"/>
         <source>Developer:</source>
-        <translation>Разработчик</translation>
+        <translation>Developer:</translation>
     </message>
     <message>
         <location filename="../aboutwindow.ui" line="61"/>
         <source>tia</source>
-        <translation></translation>
+        <translation>tia</translation>
     </message>
     <message>
         <location filename="../aboutwindow.ui" line="77"/>
         <source>Version:</source>
-        <translation>Версия</translation>
+        <translation>Version</translation>
     </message>
     <message>
         <location filename="../aboutwindow.ui" line="93"/>
@@ -36,7 +36,7 @@
     <message>
         <location filename="../aboutwindow.ui" line="110"/>
         <source>    &lt;a href=&quot;https://github.com/tia337&quot;&gt;Contact Developer&lt;/a&gt;.</source>
-        <translation>&lt;a href=&quot;https://github.com/tia337&quot;&gt;Страница разработчика&lt;/a&gt;.</translation>
+        <translation>&lt;a href=&quot;https://github.com/tia337&quot;&gt;Contact Developer&lt;/a&gt;.</translation>
     </message>
 </context>
 <context>
@@ -52,77 +52,77 @@
         <location filename="../chatwindow.ui" line="23"/>
         <location filename="../chatwindow.cpp" line="155"/>
         <source>Send</source>
-        <translation>Отправить</translation>
+        <translation>Send</translation>
     </message>
     <message>
         <location filename="../chatwindow.ui" line="32"/>
         <source>Enter your message here</source>
-        <translation>Введите ваше сообщение здесь</translation>
+        <translation>Enter your message here</translation>
     </message>
     <message>
         <location filename="../chatwindow.ui" line="88"/>
         <source>Customize</source>
-        <translation>Вид</translation>
+        <translation>Customize</translation>
     </message>
     <message>
         <location filename="../chatwindow.ui" line="92"/>
         <source>Change theme</source>
-        <translation>Темы</translation>
+        <translation>Change theme</translation>
     </message>
     <message>
         <location filename="../chatwindow.ui" line="104"/>
         <source>Change font</source>
-        <translation>Изменить шрифт</translation>
+        <translation>Change font</translation>
     </message>
     <message>
         <location filename="../chatwindow.ui" line="108"/>
         <source>Size</source>
-        <translation>Размер</translation>
+        <translation>Size</translation>
     </message>
     <message>
         <location filename="../chatwindow.ui" line="119"/>
         <source>Change smiley size</source>
-        <translation>Размер смайлов</translation>
+        <translation>Change smiley size</translation>
     </message>
     <message>
         <location filename="../chatwindow.ui" line="132"/>
         <source>History</source>
-        <translation>История</translation>
+        <translation>History</translation>
     </message>
     <message>
         <location filename="../chatwindow.ui" line="138"/>
         <source>Message</source>
-        <translation>Сообщения</translation>
+        <translation>Message</translation>
     </message>
     <message>
         <location filename="../chatwindow.ui" line="144"/>
         <source>Languages</source>
-        <translation>Языки</translation>
+        <translation>Languages</translation>
     </message>
     <message>
         <location filename="../chatwindow.ui" line="326"/>
         <source>About</source>
-        <translation>Справка</translation>
+        <translation>About</translation>
     </message>
     <message>
         <location filename="../chatwindow.ui" line="186"/>
         <source>Change color</source>
-        <translation>Цвет</translation>
+        <translation>Change color</translation>
     </message>
     <message>
         <location filename="../chatwindow.ui" line="152"/>
         <source>Info</source>
-        <translation>О программе</translation>
+        <translation>Info</translation>
     </message>
     <message>
         <location filename="../chatwindow.ui" line="191"/>
         <source>Dark</source>
-        <translation>Темная</translation>
+        <translation>Dark</translation>
     </message>
     <message>
         <location filename="../chatwindow.ui" line="196"/>
         <source>Default</source>
-        <translation>Дефолтная</translation>
+        <translation>Default</translation>
     </message>
     <message>
         <location filename="../chatwindow.ui" line="201"/>
@@ -161,12 +161,12 @@
     <message>
         <location filename="../chatwindow.ui" line="235"/>
         <source>Load history</source>
-        <translation>Подгрузить историю</translation>
+        <translation>Load history</translation>
     </message>
     <message>
         <location filename="../chatwindow.ui" line="238"/>
         <source>Load one more day of history</source>
-        <translation>Больше истории</translation>
+        <translation>Load one more history</translation>
     </message>
     <message>
         <location filename="../chatwindow.ui" line="263"/>
@@ -176,7 +176,12 @@
     <message>
         <location filename="../chatwindow.ui" line="268"/>
         <source>Insert previous message</source>
-        <translation>Вставить предыдущее сообщение</translation>
+        <translation>Insert previous message</translation>
+    </message>
+    <message>
+        <location filename="../chatwindow.ui" line="271"/>
+        <source>Up</source>
+        <translation></translation>
     </message>
     <message>
         <location filename="../chatwindow.ui" line="276"/>
@@ -191,62 +196,52 @@
     <message>
         <location filename="../chatwindow.ui" line="291"/>
         <source>Monokai</source>
-        <translation>Монокаи</translation>
+        <translation>Monokai</translation>
     </message>
     <message>
         <location filename="../chatwindow.ui" line="296"/>
         <source>Light</source>
-        <translation>Светлая</translation>
+        <translation>Light</translation>
     </message>
     <message>
         <location filename="../chatwindow.ui" line="301"/>
         <source>Image</source>
-        <translation>Картинка</translation>
+        <translation>Image( from PC)</translation>
     </message>
     <message>
         <location filename="../chatwindow.ui" line="306"/>
         <source>Radiance</source>
-        <translation>Радиэнс</translation>
+        <translation>Radiance</translation>
     </message>
     <message>
         <location filename="../chatwindow.ui" line="311"/>
         <source>English</source>
-        <translation>Английский</translation>
+        <translation>English</translation>
     </message>
     <message>
         <location filename="../chatwindow.ui" line="316"/>
         <source>Russian</source>
-        <translation>Русский</translation>
+        <translation>Russian</translation>
     </message>
     <message>
         <location filename="../chatwindow.ui" line="321"/>
         <source>Ukrainian</source>
-        <translation>Украинский</translation>
+        <translation>Ukrainian</translation>
     </message>
     <message>
         <location filename="../chatwindow.ui" line="331"/>
         <source>Contact Developer</source>
-        <translation>Страница разработчика</translation>
-    </message>
-    <message>
-        <location filename="../chatwindow.ui" line="271"/>
-        <source>Up</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../chatwindow.cpp" line="404"/>
-        <source>To </source>
-        <translation></translation>
+        <translation>Contact Developer</translation>
     </message>
     <message>
         <location filename="../chatwindow.cpp" line="46"/>
         <source> whispers to you: </source>
-        <translation> только Вам </translation>
+        <translation> whispers to you: </translation>
     </message>
     <message>
         <location filename="../chatwindow.cpp" line="52"/>
         <source>You whisper to </source>
-        <translation>Вы говорите </translation>
+        <translation>You whisper to </translation>
     </message>
     <message>
         <location filename="../chatwindow.cpp" line="56"/>
@@ -256,31 +251,32 @@
     <message>
         <location filename="../chatwindow.cpp" line="58"/>
         <source>You say: </source>
-        <translation> Вы говорите </translation>
-    </message>
-    <message>
-        <location filename="../chatwindow.cpp" line="235"/>
-        <source>------------</source>
-        <translation></translation>
+        <translation>You say: </translation>
     </message>
     <message>
         <location filename="../chatwindow.cpp" line="235"/>
         <location filename="../chatwindow.cpp" line="275"/>
         <source>
 ------------Chat history from </source>
-        <translation>--------------История от</translation>
+        <translation>
+------------Chat history from </translation>
+    </message>
+    <message>
+        <location filename="../chatwindow.cpp" line="235"/>
+        <source>------------</source>
+        <translation>------------</translation>
     </message>
     <message>
         <location filename="../chatwindow.cpp" line="64"/>
         <location filename="../chatwindow.cpp" line="243"/>
         <location filename="../chatwindow.cpp" line="266"/>
         <source> says: </source>
-        <translation> говорит: </translation>
+        <translation> says: </translation>
     </message>
     <message>
         <location filename="../chatwindow.cpp" line="381"/>
         <source>Open file</source>
-        <translation>Открыть файл</translation>
+        <translation>Open file</translation>
     </message>
     <message>
         <location filename="../chatwindow.cpp" line="381"/>
@@ -288,34 +284,39 @@
         <translation>JPEG (*.jpg *.jpeg);;PNG (*.png)</translation>
     </message>
     <message>
+        <location filename="../chatwindow.cpp" line="404"/>
+        <source>To </source>
+        <translation>To </translation>
+    </message>
+    <message>
         <location filename="../chatwindow.cpp" line="418"/>
         <source>astronaut</source>
-        <translation>Астронавт</translation>
+        <translation>Astronaut</translation>
     </message>
     <message>
         <location filename="../chatwindow.cpp" line="419"/>
         <source>batman</source>
-        <translation>Бэтмэн</translation>
+        <translation>Batman</translation>
     </message>
     <message>
         <location filename="../chatwindow.cpp" line="420"/>
         <source>grandpa</source>
-        <translation>Дедуля</translation>
+        <translation>Grandpa</translation>
     </message>
     <message>
         <location filename="../chatwindow.cpp" line="421"/>
         <source>ironman</source>
-        <translation>Старк</translation>
+        <translation>Ironman</translation>
     </message>
     <message>
         <location filename="../chatwindow.cpp" line="422"/>
         <source>spiderman</source>
-        <translation>Паук</translation>
+        <translation>Spiderman</translation>
     </message>
     <message>
         <location filename="../chatwindow.cpp" line="423"/>
         <source>pirate</source>
-        <translation>Пират</translation>
+        <translation>Pirate</translation>
     </message>
 </context>
 <context>
@@ -323,52 +324,52 @@
     <message>
         <location filename="../logindialog.ui" line="17"/>
         <source>Login</source>
-        <translation>Вход</translation>
+        <translation>Login</translation>
     </message>
     <message>
         <location filename="../logindialog.ui" line="106"/>
         <source>Server adress:</source>
-        <translation>Адрес сервера</translation>
+        <translation>Server adress:</translation>
     </message>
     <message>
         <location filename="../logindialog.ui" line="116"/>
         <source>User name:</source>
-        <translation>Ваше имя</translation>
+        <translation>User name:</translation>
     </message>
     <message>
         <location filename="../logindialog.cpp" line="12"/>
         <source>Example: name.server.com</source>
-        <translation>ваш.сервер.ру</translation>
+        <translation>Example: name.server.com</translation>
     </message>
     <message>
         <location filename="../logindialog.cpp" line="13"/>
         <source>Example: Name (max 16 characters)</source>
-        <translation>имя</translation>
+        <translation>Example: Name (max 16 characters)</translation>
     </message>
     <message>
         <location filename="../logindialog.cpp" line="38"/>
         <source>That name is taken</source>
-        <translation>имя занято</translation>
+        <translation>That name is taken</translation>
     </message>
     <message>
         <location filename="../logindialog.cpp" line="45"/>
         <source>Server timout. The server is down or invalid address!</source>
-        <translation>сервера не существует</translation>
+        <translation>Server timout. The server is down or invalid address!</translation>
     </message>
     <message>
         <location filename="../logindialog.cpp" line="51"/>
         <source>Disconnected from server!</source>
-        <translation>отключено от сервера</translation>
+        <translation>Disconnected from server!</translation>
     </message>
     <message>
         <location filename="../logindialog.cpp" line="67"/>
         <source>Name not allowed</source>
-        <translation>имя запрещено</translation>
+        <translation>Name not allowed</translation>
     </message>
     <message>
         <location filename="../logindialog.cpp" line="70"/>
         <source>Invalid server name</source>
-        <translation>неправильное имя сервера</translation>
+        <translation>Invalid server name</translation>
     </message>
 </context>
 </TS>

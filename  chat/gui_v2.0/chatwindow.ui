@@ -27,7 +27,11 @@
       <item row="1" column="0">
        <layout class="QHBoxLayout" name="horizontalLayout_2">
         <item>
-         <widget class="QLineEdit" name="messageInput"/>
+         <widget class="QLineEdit" name="messageInput">
+          <property name="placeholderText">
+           <string>Enter your message here</string>
+          </property>
+         </widget>
         </item>
        </layout>
       </item>
@@ -141,13 +145,30 @@
     </property>
     <addaction name="actionEnglish"/>
     <addaction name="actionRussian"/>
+    <addaction name="actionUkrainian"/>
+   </widget>
+   <widget class="QMenu" name="menuAbout">
+    <property name="title">
+     <string>Info</string>
+    </property>
+    <addaction name="actionAbout"/>
    </widget>
    <addaction name="menuCustomize"/>
    <addaction name="menuHistory"/>
    <addaction name="menuMessage"/>
    <addaction name="menuLanguages"/>
+   <addaction name="menuAbout"/>
   </widget>
   <widget class="QToolBar" name="mainToolBar">
+   <property name="iconSize">
+    <size>
+     <width>21</width>
+     <height>21</height>
+    </size>
+   </property>
+   <property name="floatable">
+    <bool>true</bool>
+   </property>
    <attribute name="toolBarArea">
     <enum>TopToolBarArea</enum>
    </attribute>
@@ -207,9 +228,8 @@
   </action>
   <action name="actionLoad_history">
    <property name="icon">
-    <iconset>
-     <normaloff>:/files/icon/folder-documents-icon.png</normaloff>
-     <normalon>:/files/icon/folder-documents-icon.png</normalon>:/files/icon/folder-documents-icon.png</iconset>
+    <iconset resource="myResources.qrc">
+     <normaloff>:/image/image/envelope.png</normaloff>:/image/image/envelope.png</iconset>
    </property>
    <property name="text">
     <string>Load history</string>
@@ -296,11 +316,28 @@
     <string>Russian</string>
    </property>
   </action>
+  <action name="actionUkrainian">
+   <property name="text">
+    <string>Ukrainian</string>
+   </property>
+  </action>
+  <action name="actionAbout">
+   <property name="text">
+    <string>About</string>
+   </property>
+  </action>
+  <action name="actionContact_Developer">
+   <property name="text">
+    <string>Contact Developer</string>
+   </property>
+  </action>
  </widget>
  <layoutdefault spacing="6" margin="11"/>
  <tabstops>
   <tabstop>messageHistory</tabstop>
  </tabstops>
- <resources/>
+ <resources>
+  <include location="myResources.qrc"/>
+ </resources>
  <connections/>
 </ui>

@@ -15,5 +15,13 @@
     </qresource>
     <qresource prefix="/">
         <file>Translations/chApp_ru.qm</file>
+        <file>Translations/chApp_ua.qm</file>
+        <file>Translations/chApp_en.qm</file>
+    </qresource>
+    <qresource prefix="/image">
+        <file>image/envelope.png</file>
+    </qresource>
+    <qresource prefix="/sounds">
+        <file>wav/apple_sms.wav</file>
     </qresource>
 </RCC>
