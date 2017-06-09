@@ -1,9 +1,9 @@
 # ownProgbase
 for my progbase hw and labs
 ***
-# Chat
+# chApp
 
-This directory contains source files for [chapp](https://github.com/tia337/chApp)
+This directory contains source files for [chApp](https://github.com/tia337/chApp)
 
 It is written on C++ and Qt 5.9
 
